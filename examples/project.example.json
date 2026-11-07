@@ -1,0 +1,23 @@
+{
+  "title": "一段真实的校园记忆",
+  "subtitle": "校史微纪录片 · 工程示例",
+  "team": "示例小组",
+  "seal": "记忆",
+  "location": "校园 · 拍摄地点",
+  "credits": {
+    "主讲人": "示例同学",
+    "拍摄": "示例同学",
+    "讲稿": "示例同学",
+    "剪辑": "示例同学"
+  },
+  "requirements": {
+    "duration_seconds_min": null,
+    "duration_seconds_max": null,
+    "min_live_action_ratio": null,
+    "max_external_ratio": null
+  },
+  "render": {"fps": 30},
+  "sample": {"title_seconds": 4, "credits_seconds": 4, "sources_seconds": 4},
+  "sources": ["本示例不含外部影像或历史事实；正式作品请在此逐项记录实际来源。"],
+  "fonts": {"serif_regular": null, "serif_bold": null, "brush": null}
+}

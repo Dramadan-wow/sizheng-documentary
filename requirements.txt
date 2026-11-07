@@ -1,0 +1,4 @@
+# Basic image generation and audio measurements. Python 3.12 recommended.
+numpy>=1.26,<3
+Pillow>=10,<14
+soundfile>=0.12,<1

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=1920, height=1080">
+<title>一段真实的校园记忆</title><link rel="stylesheet" href="ink.css"><link rel="stylesheet" href="fonts.css">
+<style>
+body { background:#efe9dc; }
+.paper { position:absolute; inset:0; background:radial-gradient(ellipse at 18% 30%,#f8f3e8,transparent 65%),linear-gradient(155deg,#ece4d4,#f4eee2 55%,#e4dac7); }
+.paper::after { content:""; position:absolute; left:0; right:0; bottom:0; height:280px; background:linear-gradient(170deg,transparent 45%,#746f6230 46%,#dad4c4 75%); }
+.content { position:absolute; inset:150px 180px; display:flex; flex-direction:column; justify-content:center; gap:38px; }
+h1 { font-size:112px; line-height:1.25; max-width:1500px; overflow-wrap:anywhere; }
+p { font-size:40px; line-height:1.65; }
+.sources { font-size:34px; }
+.line { height:4px; width:180px; background:#b3221f; }
+.seal { right:160px; top:140px; width:100px; height:100px; font-size:32px; }
+</style></head><body class="pp" data-len="4"><div class="paper"></div>
+<div class="credits" data-in="0" data-fade="0.6"><h1 class="brush">谢谢观看</h1><p>示例小组</p><p>主讲人：示例同学</p><p>拍摄：示例同学</p><p>讲稿：示例同学</p><p>剪辑：示例同学</p></div>
+<script src="kit.js"></script><script>
+window.film.duration=4; window.film.width=1920; window.film.height=1080;
+if (!window.filmHost) {
+  const ready=window.film.ready;
+  Promise.resolve(typeof ready==='function'?ready():ready).then(() => {
+    const start=performance.now();
+    function tick(now) { window.film.frame(((now-start)/1000)%window.film.duration); requestAnimationFrame(tick); }
+    requestAnimationFrame(tick);
+  });
+}
+</script></body></html>
